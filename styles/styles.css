@@ -1,0 +1,36 @@
+.font-inter{
+     font-family: "Inter", sans-serif;
+     font-optical-sizing: auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 1600px;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+
+}
+.navbar img{
+    padding: 16px 346px 16px 120px;
+}
+.navbar div{
+    display: flex;
+    gap:32px;
+    padding: 34px 346px 34px 0px;
+    line-height:152% ;
+    font-size: 16px;
+    font-weight: 500px;
+}
+.button{
+    margin: 24px 120px 24px 0px;
+    border: none;
+    background-color: #469165;
+    border-radius: 4%;
+    font-size: 16px;
+    font-weight: 600px;
+    color: #FFFFFF;
+    padding:12.5px 16px;
+}
