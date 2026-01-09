@@ -37,7 +37,7 @@
     background-color: #469165;
     border-radius: 4%;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
     color: #FFFFFF;
     padding:12.5px 16px;
     white-space:nowrap;
@@ -80,10 +80,6 @@
 .b{
     color: #FFFFFF;
 }
-.c .button{
-    gap: none;
-    
-}
 .early-str p{
     font-size: 18px;
     line-height: 24px;
@@ -98,4 +94,78 @@
     font-size: 16px;
     font-weight: 500;
     color: #FFFFFF;
+    margin-left: 16px;
+    margin-top: 32px;
+    border-radius: 4%;
+}
+.err-btn{
+    border: none;
+    background-color: #469165;
+    border-radius: 4%;
+    color: #FFFFFF;
+    padding: 16.5px 16px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-top: 32px;
+
+}
+
+
+.section-container{
+    margin: 0 120px;
+    text-align: center;
+}
+.section-header h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-top: 100px;
+    
+}
+.section-header p{
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+    padding-top: 16px;
+    padding-bottom: 44px;
+}
+.section-card{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    max-width: 1360px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 322px;
+    /* height: 300px; */
+    /* border: 1px solid red; */
+    padding: 69.5px 24px;
+    box-shadow: 0 0 8px 0 #d8d8d8;
+    border-radius: 8%;
+}
+.icon{
+    background-color: #F95555;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.card p{
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
 }
