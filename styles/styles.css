@@ -169,3 +169,48 @@
     color: #627382;
     line-height: 20px;
 }
+.check-icon{
+    display: flex;
+    flex-direction: row;
+    gap:6px;
+    margin-bottom: 16px;
+    color: #001931;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.second-brain{
+    padding: 120px;
+    max-width: 1360px;
+    display: flex;
+    justify-content:space-between;
+    gap:60px;
+}
+.brain{
+    width: 600px;
+    height: 600px;
+}
+.The-solution{
+    margin: 101.5px 0px;
+    text-align: left;
+    max-width: 700px;
+}
+.The-solution h4{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    color:#469165;
+    text-transform:capitalize;
+}
+.The-solution h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.The-solution .p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
