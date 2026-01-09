@@ -76,16 +76,32 @@
 }
 .a{
     color: #30B868;
+    text-transform: capitalize;
 }
 .b{
     color: #FFFFFF;
+    text-transform: capitalize;
 }
-.early-str p{
+
+.early-str .p1{
     font-size: 18px;
+    font-weight: 400;
     line-height: 24px;
     color: #FFFFFF;
-    align-items: center;
     margin-top: 16px;
+}
+.early-str .p2{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+.Sb-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
 }
 .er-btn{
     background: none;
@@ -94,9 +110,11 @@
     font-size: 16px;
     font-weight: 500;
     color: #FFFFFF;
-    margin-left: 16px;
-    margin-top: 32px;
+    /* margin-left: 16px;
+    margin-top: 32px; */
     border-radius: 4%;
+    width:198px;
+    height: 52px;
 }
 .err-btn{
     border: none;
@@ -121,7 +139,7 @@
     font-weight: bold;
     color: #001931;
     margin-top: 100px;
-    
+    text-transform: capitalize;
 }
 .section-header p{
     font-size: 16px;
@@ -200,17 +218,73 @@
     font-weight: 500;
     margin-bottom: 16px;
     color:#469165;
-    text-transform:capitalize;
+    text-transform:uppercase;
 }
 .The-solution h2{
     font-size: 48px;
     font-weight: bold;
     color: #001931;
     margin-bottom: 16px;
+    text-transform: capitalize;
 }
 .The-solution .p{
     font-size: 16px;
     line-height: 20px;
     color: #627382;
     margin-bottom: 40px;
+}
+.ready-to-think{
+    max-width: 1360px;
+    height: 392px;
+    margin: 0 120px 120px 120px;
+    background-color: #F7F6F2;
+    text-align: center;
+}
+.e-a-heading{
+    padding: 80px 40px 24px 40px;
+    max-width: 1280px;
+    height: 113px;
+}
+.e-a-heading h1{
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.e-a-heading p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color:#627382;
+    
+}
+.get-btn{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    background-color: #469165;
+    border-radius: 4%;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding:12.5px 16px;
+    white-space:nowrap;
+    margin-bottom: 24px;
+    height: 52px;
+}
+.challange{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.access-comment{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color:#627382;
 }
