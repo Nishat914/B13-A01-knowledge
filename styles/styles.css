@@ -8,6 +8,9 @@
     max-width: 1600px;
 
 }
+button:hover{
+    background-color: rgb(198, 240, 226);
+}
 .navbar{
     max-width: 1600px;
     display: flex;
@@ -15,6 +18,10 @@
     align-items: center;
     height: 92px;
 
+}
+.navbar a{
+    text-decoration: none;
+    color: #000000;
 }
 .navbar img{
     /* width: 100%; */
@@ -41,7 +48,9 @@
     color: #FFFFFF;
     padding:12.5px 16px;
     white-space:nowrap;
+    cursor: pointer;
 }
+
  .img{
     background: url(../assets/hero-bg.png);
     background-repeat: no-repeat;
